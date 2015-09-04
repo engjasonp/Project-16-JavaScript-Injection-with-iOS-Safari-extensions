@@ -16,6 +16,7 @@
 		CA6D85BA1B984ECA00F5C256 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D85B91B984ECA00F5C256 /* ActionViewController.swift */; };
 		CA6D85BC1B984ECA00F5C256 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6D85BB1B984ECA00F5C256 /* MainInterface.storyboard */; };
 		CA6D85BF1B984ECA00F5C256 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA6D85B51B984ECA00F5C256 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAEBF2F01B9988DF006AC20E /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = CAEBF2EF1B9988DF006AC20E /* Action.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		CA6D85B81B984ECA00F5C256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6D85B91B984ECA00F5C256 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		CA6D85BB1B984ECA00F5C256 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		CAEBF2EF1B9988DF006AC20E /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				CA6D85B81B984ECA00F5C256 /* Info.plist */,
+				CAEBF2EF1B9988DF006AC20E /* Action.js */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAEBF2F01B9988DF006AC20E /* Action.js in Resources */,
 				CA6D85BC1B984ECA00F5C256 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +536,7 @@
 				CA6D85AD1B97E59B00F5C256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA6D85AE1B97E59B00F5C256 /* Build configuration list for PBXNativeTarget "Project 16Tests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +545,7 @@
 				CA6D85B01B97E59B00F5C256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA6D85C01B984ECA00F5C256 /* Build configuration list for PBXNativeTarget "Extension" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +554,7 @@
 				CA6D85C21B984ECA00F5C256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
