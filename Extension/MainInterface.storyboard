@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OG4-Fl-gFD">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="464"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label=""/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -27,7 +27,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="OG4-Fl-gFD" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="9s6-1u-JMy"/>
-                            <constraint firstItem="OG4-Fl-gFD" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" id="DPO-dX-5ct"/>
+                            <constraint firstItem="OG4-Fl-gFD" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" constant="64" id="DPO-dX-5ct"/>
                             <constraint firstAttribute="trailing" secondItem="OG4-Fl-gFD" secondAttribute="trailing" id="hQF-CA-SRK"/>
                             <constraint firstItem="OG4-Fl-gFD" firstAttribute="bottom" secondItem="n38-gi-rB5" secondAttribute="top" id="oXv-JM-bJy"/>
                         </constraints>
